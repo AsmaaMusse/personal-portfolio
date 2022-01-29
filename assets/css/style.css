@@ -1,0 +1,64 @@
+section {
+  height: 500px;
+  background-color: white;
+  border: black 1px;
+}
+
+.about-me {
+  background-color: black;
+  height: 100vh;
+  color: aliceblue;
+  font-size: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  width: 500px;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+li {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 90px;
+  margin: 0px;
+  font-weight: 400;
+}
+
+p {
+  margin: 0px;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.about-me-text {
+  margin-left: 80px;
+  margin-bottom: 200px;
+}
+
+.button {
+  width: 200px;
+  height: 55px;
+  border-radius: 30px;
+  background-color: rgb(5, 221, 221);
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+
+footer {
+  height: 200px;
+  background-color: whitesmoke;
+}
