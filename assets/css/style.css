@@ -41,6 +41,13 @@ p {
   font-weight: 300;
 }
 
+.about-me-text-area {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+
 .about-me-text {
   margin-left: 80px;
   margin-bottom: 200px;
@@ -50,12 +57,24 @@ p {
   width: 200px;
   height: 55px;
   border-radius: 30px;
-  background-color: rgb(5, 221, 221);
+  background-color: rgb(68, 149, 225);
   text-align: center;
   font-size: 30px;
   font-weight: 300;
   padding-top: 5px;
   margin-top: 20px;
+}
+
+.button:hover {
+  background-color: rgb(2, 73, 165);
+}
+
+.button:active {
+  background-color: rgb(146, 144, 144);
+}
+
+.socials {
+  padding-bottom: 200px;
 }
 
 footer {
