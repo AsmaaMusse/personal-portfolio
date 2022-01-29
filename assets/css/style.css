@@ -1,5 +1,4 @@
 section {
-  height: 500px;
   background-color: white;
   border: black 1px;
 }
@@ -85,6 +84,7 @@ p {
   display: flex;
   justify-content: space-around;
   padding: 80px;
+  border: black 1px;
 }
 
 .headshot {
@@ -92,7 +92,29 @@ p {
   border-radius: 70px;
 }
 
+.headshot-container {
+  display: flex;
+  align-items: center;
+}
+
+.project-card {
+  width: 300px;
+  height: 500px;
+  border: 1px solid black;
+}
+
+.project-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
+}
+
 footer {
   height: 200px;
-  background-color: whitesmoke;
+  background-color: black;
 }
