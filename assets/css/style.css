@@ -44,6 +44,15 @@ p {
   font-weight: 300;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: rgb(105, 202, 209);
+}
+
 .bio-text-area {
   display: flex;
   justify-content: space-between;
@@ -131,8 +140,24 @@ hr {
   height: 250px;
   border-radius: 150px;
 }
+.project-link {
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(105, 202, 209);
+}
 
 footer {
-  height: 200px;
+  height: 100px;
   background-color: black;
+  color: white;
+  text-align: center;
+  padding: 80px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
