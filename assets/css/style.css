@@ -23,6 +23,10 @@ ul {
   font-size: 30px;
 }
 
+.hamburger {
+  display: none;
+}
+
 li {
   text-decoration: none;
 }
@@ -159,5 +163,19 @@ footer {
   .project-container {
     display: flex;
     flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .hamburger {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+  }
+
+  ul {
+    display: none;
   }
 }
