@@ -120,6 +120,9 @@ a:hover {
   justify-content: space-around;
   padding-top: 20px;
 }
+.skills-container li {
+  font-size: 20px;
+}
 
 .project-card {
   width: 300px;
@@ -141,12 +144,19 @@ a:hover {
   flex-wrap: wrap;
 }
 
+.subtext .project-link {
+  text-decoration: underline;
+  color: blue;
+}
+
 hr {
   margin-left: 20px;
   margin-right: 20px;
 }
 
 .subtext {
+  display: flex;
+  justify-content: space-evenly;
   font-size: 15px;
   font-weight: 300;
 }
