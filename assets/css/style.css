@@ -42,6 +42,11 @@ h1 {
   font-weight: 400;
 }
 
+h8 {
+  color: rgb(138, 138, 138);
+  font-weight: 400;
+}
+
 p {
   margin: 0px;
   font-size: 30px;
@@ -158,7 +163,8 @@ hr {
   display: flex;
   justify-content: space-evenly;
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 600;
+  margin-top: 5px;
 }
 
 .project-image {
