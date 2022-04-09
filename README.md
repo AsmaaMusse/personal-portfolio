@@ -4,6 +4,12 @@
 
 For this project my aim was to build my personal portfolio from scratch using HTML and advanced CSS.
 
+## Table of contents:
+- [Links](#links)
+- [Technologies Used](#technologies-used)
+- [Screenshot](#screenshot)
+- [Contribute](#contribute)
+
 ## Links
 
 Deployed Link: https://asmaamusse.github.io/personal-portfolio/
